@@ -43,6 +43,7 @@ public class GiaiPT {
     }
 
     public static String GiaiPTB3(double a, double b, double c, double d) {
+        double delta = pow(b, 2) - 3 * a * c;
         double k = (9 * a * b * c - 2 * pow(b, 3) - 27 * pow(a, 2) * d) / (2 * sqrt(abs(pow(delta, 3))));
         double x1, x2, x3, x;
         String s1, s2, s3, s;
